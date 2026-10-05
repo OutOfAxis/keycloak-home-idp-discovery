@@ -24,8 +24,8 @@
 
                 <repository>
                     <id>github</id>
-                    <name>GitHub sventorben Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/sventorben/keycloak-home-idp-discovery</url>
+                    <name>GitHub OutOfAxis Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/OutOfAxis/keycloak-home-idp-discovery</url>
                 </repository>
             </repositories>
         </profile>
@@ -34,7 +34,7 @@
     <servers>
         <server>
             <id>github</id>
-            <username>sventorben</username>
+            <username>${env.GITHUB_ACTOR}</username>
             <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>

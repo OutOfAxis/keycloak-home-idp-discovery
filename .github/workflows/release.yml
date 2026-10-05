@@ -79,6 +79,6 @@ jobs:
         title: "chore(release): Prepare next version after release ${{ github.event.inputs.releaseVersion }}"
         body: "Automated PR to prepare next version after release ${{ github.event.inputs.releaseVersion }}"
         labels: "release,ignore-for-release"
-        assignees: "sventorben"
+        assignees: "Operativ"
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
