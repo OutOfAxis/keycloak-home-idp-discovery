@@ -24,10 +24,10 @@
     </developers>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com:sventorben/keycloak-home-idp-discovery.git</connection>
-        <developerConnection>scm:git:https://github.com/sventorben/keycloak-home-idp-discovery.git
+        <connection>scm:git:ssh://git@github.com:OutOfAxis/keycloak-home-idp-discovery.git</connection>
+        <developerConnection>scm:git:https://github.com/OutOfAxis/keycloak-home-idp-discovery.git
         </developerConnection>
-        <url>https://github.com/sventorben/keycloak-home-idp-discovery.git</url>
+        <url>https://github.com/OutOfAxis/keycloak-home-idp-discovery.git</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -39,8 +39,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub sventorben Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/sventorben/keycloak-home-idp-discovery</url>
+            <name>GitHub OutOfAxis Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/OutOfAxis/keycloak-home-idp-discovery</url>
         </repository>
     </distributionManagement>
 
